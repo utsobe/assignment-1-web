@@ -112,12 +112,11 @@ nav {
 /* information section style */
 
 .information {
-  padding: 80px 0;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 116px 159px 116px 141px;
+  padding: 40px 159px 40px 141px;
   background-color: #f7f9ff;
 }
 
@@ -181,5 +180,154 @@ nav {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* review section style */
+
+.review {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 159px 40px 141px;
+  background-color: #f7f9ff;
+}
+
+.review-container {
+  width: 1000px;
+  padding: 50px 80px;
+  /* background: rgba(255, 255, 255, 1); */
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.review-title {
+  text-align: center;
+  color: #252432;
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  align-self: stretch;
+}
+
+.review-grid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.review-card {
+  flex: 1 1 0;
+  min-width: 240px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+  border: 1px solid #f2eded;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.review-stars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.review-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.review-heading {
+  color: #1e1e1e;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 28.8px;
+  word-wrap: break-word;
+}
+
+.review-description {
+  flex: 1 1 0;
+  color: #1e1e1e;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+  align-self: stretch;
+}
+
+.review-author {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-details {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.author-name {
+  align-self: stretch;
+  color: #757575;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}
+
+.author-date {
+  align-self: stretch;
+  color: #b3b3b3;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 22.4px;
   word-wrap: break-word;
 }
