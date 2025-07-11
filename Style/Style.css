@@ -419,3 +419,123 @@ nav {
   border-radius: 48px;
   object-fit: cover;
 }
+
+/* message section style */
+
+.message {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 159px 40px 141px;
+  background-color: #f7f9ff;
+}
+
+.message-container {
+  width: 1140px;
+  padding: 71px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.message-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+
+.message-title {
+  width: 528px;
+  color: black;
+  font-size: 97px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 116.4px;
+  word-wrap: break-word;
+}
+
+.message-form {
+  width: 497px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 19px;
+}
+
+.form-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form-label {
+  align-self: stretch;
+  color: black;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 21.6px;
+  word-wrap: break-word;
+}
+
+.form-input {
+  align-self: stretch;
+  height: 70px;
+  padding: 20px 32px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-textarea {
+  height: 135px;
+  align-items: flex-start;
+}
+
+.form-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.message-button {
+  align-self: stretch;
+  padding: 19px 101px;
+  background: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.message-button:hover {
+  background: #3d35e6;
+  transform: translateY(-2px);
+}
