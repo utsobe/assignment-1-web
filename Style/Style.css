@@ -331,3 +331,91 @@ nav {
   line-height: 22.4px;
   word-wrap: break-word;
 }
+
+/* advertisement section style */
+
+.advertisement {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 159px 40px 141px;
+  background-color: #f7f9ff;
+}
+
+.advertisement-container {
+  width: 1140px;
+  padding: 71px 150px;
+  background: white;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.advertisement-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.advertisement-title {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  word-wrap: break-word;
+}
+
+.advertisement-description {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.advertisement-button {
+  height: 48px;
+  padding: 12px 36px;
+  background: #4e47ff;
+  border-radius: 10px;
+  border: 1px solid white;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.advertisement-button:hover {
+  background: #3d35e6;
+  transform: translateY(-2px);
+}
+
+.advertisement-image {
+  align-self: stretch;
+  height: 364.77px;
+  border-radius: 48px;
+  object-fit: cover;
+}
